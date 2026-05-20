@@ -28,15 +28,15 @@ export const mealPlan: DayMeals[] = [
         slot: 'lunch',
         title: 'Grilled chicken salad',
         description:
-          'Grilled chicken breast over mixed greens, cherry tomatoes, cucumber, avocado, olive oil vinaigrette, with a small whole wheat roll.',
+          "Uses Sunday's pre-cooked chicken breast over mixed greens, cherry tomatoes, cucumber, and avocado with balsamic-Dijon vinaigrette. No cooking — just slice and assemble.",
         recipeId: 'grilled-chicken-salad',
       },
       {
         id: 'mon-d',
         slot: 'dinner',
-        title: 'Herb-roasted chicken & sweet potato',
+        title: 'Herb-roasted chicken & sweet potato (cook 2 portions)',
         description:
-          'Skinless herb-roasted chicken thigh with roasted sweet potato, steamed broccoli, and a side of quinoa.',
+          'Sheet-pan chicken breast with sweet potato cubes and broccoli, served over quinoa. Cook 2 portions — tomorrow\'s lunch becomes a power bowl from the leftovers.',
         recipeId: 'herb-roasted-chicken',
       },
       {
@@ -44,7 +44,7 @@ export const mealPlan: DayMeals[] = [
         slot: 'snack',
         title: 'Apple + almond butter; carrots + hummus',
         description:
-          'Apple slices with 2 tbsp almond butter. Baby carrots with hummus.',
+          'Apple slices with 2 tbsp almond butter. Baby carrots with 2 tbsp hummus.',
       },
     ],
   },
@@ -55,33 +55,32 @@ export const mealPlan: DayMeals[] = [
       {
         id: 'tue-b',
         slot: 'breakfast',
-        title: 'Veggie omelet',
+        title: 'Greek yogurt parfait',
         description:
-          'Three-egg omelet with spinach, bell peppers, and mushrooms. Whole grain toast with avocado.',
-        recipeId: 'veggie-omelet',
+          'Same as yesterday — Greek yogurt, berries, flaxseed, walnuts, toast.',
+        recipeId: 'greek-yogurt-parfait',
       },
       {
         id: 'tue-l',
         slot: 'lunch',
-        title: 'Turkey & veggie wrap',
+        title: 'Chicken power bowl (leftover remix)',
         description:
-          'Whole wheat tortilla, sliced turkey breast, lettuce, tomato, avocado, mustard. Side of mixed fruit.',
-        recipeId: 'turkey-wrap',
+          "Monday's herb chicken shredded over mixed greens with leftover sweet potato cubes, cherry tomatoes, and balsamic. Warm the chicken or serve it cold — no cooking required.",
       },
       {
         id: 'tue-d',
         slot: 'dinner',
-        title: 'Lean beef stir-fry',
+        title: 'Chicken & vegetable soup (batch of 4)',
         description:
-          'Lean beef with bell peppers, snap peas, broccoli, and water chestnuts over brown rice. Low-sodium soy sauce and ginger.',
-        recipeId: 'beef-stir-fry',
+          'Low-sodium broth with carrots, celery, onion, chicken breast, and whole wheat pasta. Make the full batch — eat one bowl tonight and reheat tomorrow.',
+        recipeId: 'chicken-soup',
       },
       {
         id: 'tue-s',
         slot: 'snack',
-        title: 'Mixed nuts; celery + peanut butter',
+        title: 'Greek yogurt + walnuts + honey; banana',
         description:
-          'Handful of unsalted mixed nuts. Celery sticks with peanut butter.',
+          'Greek yogurt topped with walnuts and a drizzle of honey. Banana on the side.',
       },
     ],
   },
@@ -92,33 +91,33 @@ export const mealPlan: DayMeals[] = [
       {
         id: 'wed-b',
         slot: 'breakfast',
-        title: 'Overnight oats',
+        title: 'Veggie omelet',
         description:
-          'Rolled oats with unsweetened almond milk, chia seeds, banana slices, and a drizzle of honey.',
-        recipeId: 'overnight-oats',
+          'Three-egg omelet with spinach and bell peppers. Whole grain toast with avocado.',
+        recipeId: 'veggie-omelet',
       },
       {
         id: 'wed-l',
         slot: 'lunch',
-        title: 'Black bean & chicken burrito bowl',
+        title: 'Chicken soup (leftover)',
         description:
-          'Brown rice, black beans, grilled chicken, corn, tomato salsa, lettuce, and a dollop of Greek yogurt.',
-        recipeId: 'burrito-bowl',
+          "Reheat yesterday's batch — a second bowl of the same soup.",
+        recipeId: 'chicken-soup',
       },
       {
         id: 'wed-d',
         slot: 'dinner',
-        title: 'Turkey meatballs & whole wheat pasta',
+        title: 'Chicken meatballs & pasta (batch of 4)',
         description:
-          'Baked turkey meatballs with low-sodium marinara over whole wheat pasta. Side of steamed green beans with garlic.',
-        recipeId: 'turkey-meatballs',
+          'Baked ground chicken meatballs in low-sodium marinara over whole wheat pasta with steamed broccoli. Cook the full batch — leftovers become tomorrow\'s meatball sub.',
+        recipeId: 'chicken-meatballs',
       },
       {
         id: 'wed-s',
         slot: 'snack',
-        title: 'Cottage cheese + pineapple; crackers + cheese',
+        title: 'Apple + almond butter; carrots + hummus',
         description:
-          'Cottage cheese with pineapple. Whole grain crackers with cheese.',
+          'Same combo as Monday. Apple slices with 2 tbsp almond butter, baby carrots with 2 tbsp hummus.',
       },
     ],
   },
@@ -129,33 +128,32 @@ export const mealPlan: DayMeals[] = [
       {
         id: 'thu-b',
         slot: 'breakfast',
-        title: 'Berry protein smoothie',
+        title: 'Veggie omelet',
         description:
-          'Spinach, frozen mixed berries, banana, vanilla protein powder, unsweetened almond milk, and ground flaxseed.',
-        recipeId: 'berry-smoothie',
+          'Same as yesterday — three-egg omelet with spinach and bell peppers, avocado toast on the side.',
+        recipeId: 'veggie-omelet',
       },
       {
         id: 'thu-l',
         slot: 'lunch',
-        title: 'Chicken & vegetable soup',
+        title: 'Meatball sub (leftover remix)',
         description:
-          'Low-sodium broth with carrots, celery, onion, chicken breast, and whole grain noodles. Side salad with vinaigrette.',
-        recipeId: 'chicken-soup',
+          "2-3 of yesterday's reheated chicken meatballs on whole wheat bread with marinara and a sprinkle of Parmesan. Quick assembly, no extra cooking.",
       },
       {
         id: 'thu-d',
         slot: 'dinner',
-        title: 'Grilled pork tenderloin',
+        title: 'Black bean & chicken burrito bowl (cook 2 portions)',
         description:
-          'Grilled pork tenderloin with roasted Brussels sprouts and baked sweet potato. Sauteed kale with garlic and olive oil.',
-        recipeId: 'pork-tenderloin',
+          'Brown rice, black beans, chicken, salsa, and avocado. Cook 2 portions — tomorrow\'s lunch is a reheat of tonight\'s bowl.',
+        recipeId: 'burrito-bowl',
       },
       {
         id: 'thu-s',
         slot: 'snack',
-        title: 'Trail mix; bell peppers + guac',
+        title: 'Cottage cheese + berries; toast + almond butter',
         description:
-          'Trail mix (unsalted nuts, dried cranberries, dark chocolate chips). Sliced bell peppers with guacamole.',
+          'Cottage cheese topped with mixed berries. Whole wheat toast with 1 tbsp almond butter.',
       },
     ],
   },
@@ -166,32 +164,33 @@ export const mealPlan: DayMeals[] = [
       {
         id: 'fri-b',
         slot: 'breakfast',
-        title: 'Whole grain waffle + scrambled eggs',
+        title: 'Berry protein smoothie',
         description:
-          'Whole grain waffle topped with almond butter, sliced strawberries, light maple syrup. Two scrambled eggs.',
-        recipeId: 'waffle-eggs',
+          'Spinach, frozen mixed berries, banana, vanilla protein powder, unsweetened almond milk, and ground flaxseed.',
+        recipeId: 'berry-smoothie',
       },
       {
         id: 'fri-l',
         slot: 'lunch',
-        title: 'Mediterranean grain bowl',
+        title: 'Burrito bowl (leftover)',
         description:
-          'Farro with roasted chickpeas, cucumber, tomatoes, red onion, Kalamata olives, and lemon-tahini dressing.',
-        recipeId: 'mediterranean-bowl',
+          "Reheat yesterday's burrito bowl — same brown rice, black beans, chicken, salsa, and avocado.",
+        recipeId: 'burrito-bowl',
       },
       {
         id: 'fri-d',
         slot: 'dinner',
-        title: 'Slow-cooker Tuscan chicken thighs',
+        title: 'Slow-cooker Tuscan chicken breasts (batch of 4)',
         description:
-          'Chicken thighs with artichokes, sun-dried tomatoes, and white beans. Mixed green salad.',
+          'Chicken breasts with artichokes, sun-dried tomatoes, and white beans. Mixed greens side salad. Cook the full slow-cooker batch — tomorrow\'s lunch is a leftover bowl.',
         recipeId: 'tuscan-chicken',
       },
       {
         id: 'fri-s',
         slot: 'snack',
-        title: 'Greek yogurt + granola; edamame',
-        description: 'Greek yogurt with a handful of granola. Lightly salted edamame.',
+        title: 'Greek yogurt + walnuts + honey; banana',
+        description:
+          'Same as Tuesday. Greek yogurt with walnuts and a drizzle of honey; banana on the side.',
       },
     ],
   },
@@ -204,30 +203,30 @@ export const mealPlan: DayMeals[] = [
         slot: 'breakfast',
         title: 'Breakfast burrito',
         description:
-          'Whole wheat tortilla, scrambled eggs, black beans, diced tomatoes, avocado, sprinkle of low-fat cheese.',
+          'Whole wheat tortilla, scrambled eggs, black beans, diced tomatoes, avocado, low-fat shredded cheese.',
         recipeId: 'breakfast-burrito',
       },
       {
         id: 'sat-l',
         slot: 'lunch',
-        title: 'Lentil & vegetable stew',
+        title: 'Tuscan chicken bowl (leftover remix)',
         description:
-          'Lentils with carrots, celery, potatoes, and spinach. Slice of crusty whole grain bread.',
-        recipeId: 'lentil-stew',
+          "Yesterday's Tuscan chicken (with the artichokes, sun-dried tomatoes, and white beans) served over a bed of brown rice and spinach. Just reheat and plate.",
       },
       {
         id: 'sat-d',
         slot: 'dinner',
-        title: 'Grilled chicken & wild rice',
+        title: 'Paprika roast chicken (cook 2 portions)',
         description:
-          'Herb-marinated grilled chicken breast with roasted asparagus and wild rice pilaf. Sliced tomatoes with basil and balsamic.',
-        recipeId: 'chicken-wild-rice',
+          'Paprika-rubbed chicken breast with roasted Brussels sprouts and baked sweet potato, sautéed spinach with garlic. Cook both portions — leftovers become tomorrow\'s lunch wrap.',
+        recipeId: 'paprika-chicken-sheet-pan',
       },
       {
         id: 'sat-s',
         slot: 'snack',
-        title: 'Banana + peanut butter; almonds',
-        description: 'Banana with peanut butter. Handful of raw almonds.',
+        title: 'Hard-boiled egg + apple + almonds',
+        description:
+          'One hard-boiled egg, an apple, and a small handful of raw almonds.',
       },
     ],
   },
@@ -238,32 +237,32 @@ export const mealPlan: DayMeals[] = [
       {
         id: 'sun-b',
         slot: 'breakfast',
-        title: 'Veggie frittata',
+        title: 'Berry protein smoothie',
         description:
-          'Eggs with zucchini, cherry tomatoes, fresh basil, and feta. Slice of whole grain toast.',
-        recipeId: 'veggie-frittata',
+          'Same as Friday — spinach, frozen berries, banana, protein powder, almond milk, flaxseed.',
+        recipeId: 'berry-smoothie',
       },
       {
         id: 'sun-l',
         slot: 'lunch',
-        title: 'Chicken Caesar + minestrone',
+        title: 'Roast chicken wrap (leftover remix)',
         description:
-          'Grilled chicken Caesar (light dressing, no croutons) with shaved Parmesan. Cup of low-sodium minestrone.',
-        recipeId: 'chicken-caesar',
+          "Sliced leftover paprika chicken in a whole wheat tortilla with mixed greens and a smear of Dijon. No cooking — quick assembly.",
       },
       {
         id: 'sun-d',
         slot: 'dinner',
-        title: 'Beef tenderloin & roasted roots',
+        title: 'Herb-marinated chicken & wild rice',
         description:
-          'Lean beef tenderloin with roasted carrots, parsnips, and beets. Side of garlic mashed cauliflower.',
-        recipeId: 'beef-tenderloin',
+          "Grilled chicken breast over wild rice pilaf with asparagus. Cook an extra chicken breast for Monday's salad lunch — the whole leftover chain starts here.",
+        recipeId: 'chicken-wild-rice',
       },
       {
         id: 'sun-s',
         slot: 'snack',
-        title: 'Apple + walnuts; cucumber + tzatziki',
-        description: 'Apple with walnuts. Cucumber slices with tzatziki.',
+        title: 'Cottage cheese + berries; toast + almond butter',
+        description:
+          'Same as Thursday. Cottage cheese with berries; whole wheat toast with 1 tbsp almond butter.',
       },
     ],
   },
